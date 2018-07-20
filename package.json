@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A command line Node and MySQL application for tracking inventory (in your command line store)",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbremble/bamazon.git"
+  },
+  "author": "CGB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbremble/bamazon/issues"
+  },
+  "homepage": "https://github.com/gbremble/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "mysql": "^2.16.0"
+  }
+}
