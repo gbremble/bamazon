@@ -28,7 +28,6 @@ function viewProducts() {
         // after displying products, close the sale
         placeOrder();
     });
-
 }
 
 // use inquirer to determine what product will be purchased
@@ -72,13 +71,4 @@ function placeOrder() {
                         }
                     });
                 });
-                checkStockQty();
-            }
-
-            function checkStockQty(answer, quantity) {
-
-            }
-
-            function fulfillOrder() {
-                // code
             }
